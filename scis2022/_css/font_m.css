@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------------------------
+	author: Lampros co.,ltd. Atsushi Umehara
+	url:http://www.lampros.co.jp/
+	making day: 2010-09-17
+	---------------------------------------------------------------------------------------------*/
+
+
+/* ================================================
+
+	font size middle
+
+=================================================*/
+
+/*
+px  %
+10  83.4
+11  91.7
+12  100
+13  108.4
+14  116.7
+15  125
+16  133.4
+17  141.7
+18  150
+19  158.4
+20  166.7
+21  175
+22  183.4
+23  191.7
+24  200
+25  208.4
+26  217
+*/
+
+/* fontSwitcher
+---------------------------------------------------------------------------------------------*/
+#fontSwitcher {
+	clear: both;
+	overflow: hidden;
+}
+#fsArea {
+	float: right;
+	height: 23px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#fsArea li {
+	display: block;
+	float: left;
+}
+#fsArea .fsTitle {
+	height: 23px;
+	width: 66px;
+	background-image: url(../_img/common/fs_title.jpg);
+	background-repeat: no-repeat;
+}
+#fsBt1,
+#fsBt2 {
+	height: 23px;
+	width: 35px;
+	display: block;
+	text-decoration: none;
+}
+#fsBt1 {
+	background-image: url(../_img/common/fs_bt_1_f2.jpg);
+	background-repeat: no-repeat;
+}
+#fsBt2 {
+	background-image: url(../_img/common/fs_bt_2.jpg);
+	background-repeat: no-repeat;
+}
+#fsBt2:hover {
+	background-image: url(../_img/common/fs_bt_2_f2.jpg);
+}
+
+/*
+---------------------------------------------------------------------------------------------*/
+.fs12 {
+	font-size: 100%;
+	line-height: 1.5em;
+}
+.fs11 {
+	font-size: 85%;
+	line-height: 1.5em;
+	color: #F00;
+}
+.fs13 {
+	font-size: 108.4%;
+	line-height: 1.5em;
+}
+.fs14 {
+	font-size: 116.7%;
+	line-height: 1.5em;
+}
+.fs14_l {
+	font-size: 116.7%;
+	line-height: 1.5em;
+	text-decoration: line-through;
+}
+.fs16 {
+	font-size: 133.4%;
+	line-height: 1.5em;
+}
+.fs17 {
+	font-size: 141.7%;
+	line-height: 1.5em;
+}
+.fs22 {
+	font-size: 183.4%;
+	line-height: 1.5em;
+}
+
+#gMenu ul li a,
+#gMenu td a {
+	font-size: 100%;
+	line-height: 1.5em;
+}

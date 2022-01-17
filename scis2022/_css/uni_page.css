@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------------------------
+	author: Lampros co.,ltd. Atsushi Umehara
+	url:http://www.lampros.co.jp/
+	making day: 2010-09-17
+	---------------------------------------------------------------------------------------------*/
+
+@import url(reset.css);
+@import url(common.css);
+@import url(page_common.css);
+@import url(program_web.css);

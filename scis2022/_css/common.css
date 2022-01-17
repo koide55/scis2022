@@ -1,0 +1,266 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------------------------
+	author: Lampros co.,ltd. Atsushi Umehara
+	url:http://www.lampros.co.jp/
+	making day: 2010-09-17
+	---------------------------------------------------------------------------------------------*/
+
+
+/* ================================================
+
+	common
+
+=================================================*/
+
+
+/* html body a strong
+---------------------------------------------------------------------------------------------*/
+html {
+	background-image: url(../_img/common/bg2.jpg);
+	overflow-y: scroll;
+}
+body {
+	behavior:url("csshover3.htc");
+	color: #333;
+}
+a:link, a:visited {
+	color: #20558A;
+	text-decoration: none;
+}
+a:hover, a:active {
+	/*color: #FC0;*/
+	color: #004EA2;
+}
+strong { font-weight: bold; }
+
+
+/* frame
+---------------------------------------------------------------------------------------------*/
+
+/* container */
+#container {
+	background-image: url(../_img/common/bg1.jpg);
+	background-repeat: repeat-x;
+	padding-top: 10px;
+}
+
+/* sponsor */
+.sponsor_index {
+	position: absolute;
+	left: calc(50% + 455px);
+	top: 586px;
+  	width: 270px;
+	height: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 3px;
+	padding-left: 3px;
+	background: rgba(255, 255, 255, .9);
+	z-index: 1024;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #eeeeee;
+}
+.sponsor_pages {
+	position: absolute;
+	left: calc(50% + 455px);
+	top: 256px;
+  	width: 270px;
+	height: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 3px;
+	padding-left: 3px;
+	background: rgba(255, 255, 255, .9);
+	z-index: 1024;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #eeeeee;
+}
+.sponsor{
+	text-align: center;
+}
+.gold{
+	font-weight: bold;
+	margin-top: 32px;
+	color: #ada142;
+	font-size: 18px;
+}
+
+.support{
+	font-weight: bold;
+	margin-top: 64px;
+	color: #000000;
+	font-size: 18px;
+}
+
+
+/* inner */
+.inner {
+	width: 894px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+/* hederArea */
+#hederArea {
+	background-image: url(../_img/common/h_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#logo {
+	padding-top: 8px;
+	padding-bottom: 3px;
+}
+
+/* mainImgArea */
+#mainImgArea {
+	margin-bottom: 5px;
+}
+
+/* menuArea */
+#menuArea {
+	background-image: url(../_img/common/menu_line_1.jpg);
+	padding-top: 3px;
+	background-repeat: repeat-x;
+}
+#gMenu,
+#gMenu table {
+	display: table;
+	width: 100%;
+	background-image: url(../_img/common/menu_line_2.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 3px;
+}
+#regi table {
+	display: table;
+	background-image: url(../_img/common/menu_line_2.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 3px;
+}
+#gMenu ul,
+#gMenu tr {
+	display: table-row;
+	background-image: url(../_img/common/menu_off_bg.jpg);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+}
+#gMenu ul li {
+	display: inline;
+	zoom:1;
+}
+#regi ul li {
+	display: inline;
+	zoom:1;
+}
+#gMenu ul li,
+#gMenu td {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../_img/common/menu_off.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#regi ul li, #regi td {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../_img/common/menu_off.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#gMenu ul li.on,
+#gMenu td.on {
+	background-image: url(../_img/common/menu_on.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#gMenu ul li:hover,
+#gMenu td:hover {
+	background-image: url(../_img/common/menu_hover.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#regi ul li.on, #regi ul li:hover, #regi td.on, #regi td:hover {
+	background-image: url(../_img/common/menu_on.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#gMenu ul li a,
+#gMenu td a {
+	font-weight: bold;
+	color: #f2f2f2;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	display: block;
+}
+#regi ul li a, #regi td a {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	display: block;
+	white-space: nowrap;
+}
+
+#regi ul li #closed {
+	color: #888;
+}
+
+/* contentsArea */
+#contentsArea {
+	background-image: url(../_img/common/b_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+#regi {
+	width: 550px;
+	white-space: nowrap;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+/* footerArea */
+#footerArea {
+	background-image: url(../_img/common/f_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 38px;
+}
+
+/* pankuzu
+---------------------------------------------------------------------------------------------*/
+#pankuzu {}
+
+/* pageUp
+---------------------------------------------------------------------------------------------*/
+.pageUp {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+
+/* clearfix
+---------------------------------------------------------------------------------------------*/
+#contentsArea:after
+ { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#contentsArea
+ { display: inline-table; min-height: 1%; }
+/* Hides from IE-mac \*/
+* html #contentsArea
+ { height: 1%; }
+#contentsArea
+ { display: block; }
+/* End hide from IE-mac */
